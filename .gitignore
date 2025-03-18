@@ -1,0 +1,57 @@
+# Poetry files
+poetry.lock
+.pytest_cache/
+.tox/
+dist/
+build/
+*.egg-info/
+
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+venv/
+env/
+ENV/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Local development files
+.env.local
+.env.dev
+.env.prod
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Output files
+*.csv
+*.json
+*.pkl
+*.h5
+*.model
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+data/

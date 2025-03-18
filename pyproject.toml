@@ -1,0 +1,24 @@
+[project]
+name = "lossy-autoencoder"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "xyberii4",email = "61101529+xyberii4@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26.0,<2.0.0",
+    "tensorflow>=2.13.0,<2.19.0",
+    "matplotlib>=3.4.0",
+    "jupyter>=1.0.0",
+    "keras (>=3.9.0,<4.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
