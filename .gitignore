@@ -55,3 +55,5 @@ htmlcov/
 *.gif
 *.pdf
 data/
+report/
+models/
